@@ -1,10 +1,12 @@
 
 /**
  * Hash Table is fast in 
- * add values O(1)
+ * Insert values O(1)
  * Delete values O(1)
  * Access values O(1)
+ * Search Values O(1)
  * 
+ * Hash Table slow in getting keys O(N)
  * **/
 
 
@@ -66,10 +68,29 @@ return undefined;
 }
 
 
+keys(){
+const keysArray=[];
+for(let i=0;i<this.data.length;i++){
+
+if(this.data[i]){
+  keysArray.push(this.data[i][0][0]);
+
+}
+
+}
+
+
+return keysArray;
+}
+
+
+
+
+
 }
 
 const myHashTable = new HashTable(50);
 myHashTable.set('grapes',10000);
 myHashTable.set('apple',54);
 myHashTable.get('grapes');
-//myHashTable._hash('hem');
+myHashTable.keys();
