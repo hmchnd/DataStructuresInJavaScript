@@ -1,3 +1,20 @@
+
+/*
+* Array is helpfull when we need to access within array that is very quick. O(1).
+* Easy to Push within array O(1)
+* Easy to POP within arrat O(1)
+* Its good to work with array when its sorted.
+
+
+Hard time with array.
+
+* SHift and UnSHift operations are time consuming. (Insert operations)
+* Delete operations are time consuming within array.
+
+*/
+
+
+
 class MyArray {
   constructor() {
     this.length = 0;
