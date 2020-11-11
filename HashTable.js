@@ -7,6 +7,8 @@
  * Search Values O(1)
  * 
  * Hash Table slow in getting keys O(N)
+ * Hash Tables are unordered
+ * SPace complexity O(1)   tradeoff with Memory here
  * **/
 
 

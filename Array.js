@@ -10,6 +10,7 @@ Hard time with array.
 
 * SHift and UnSHift operations are time consuming. (Insert operations)
 * Delete operations are time consuming within array.
+* Search take O(n) time
 
 */
 
