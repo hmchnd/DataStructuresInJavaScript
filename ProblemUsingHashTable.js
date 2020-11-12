@@ -3,7 +3,7 @@ function firstRecurringChar (array){
 console.log(array);
 var first = {};
 first[array[0]]="";
-//console.log(first)
+
 for(let i=1;i<array.length;i++){
 
 if(first.hasOwnProperty(array[i])){
@@ -16,7 +16,7 @@ if(first.hasOwnProperty(array[i])){
 
 
 }
-//console.log(first)
+
 return false;
 }
 
